@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+.turbo/
 
 # Expo
 .expo/
@@ -32,6 +33,11 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+
+# Next.js
+.next/
+out/
 
 # typescript
 *.tsbuildinfo
@@ -41,3 +47,8 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/

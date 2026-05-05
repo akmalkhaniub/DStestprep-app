@@ -1,0 +1,30 @@
+export const Brand = {
+  colors: {
+    ink: "#08111f",
+    text: "#102033",
+    muted: "#5f7084",
+    line: "#d5deea",
+    shell: "#f3f7fb",
+    shellAlt: "#e9f0f7",
+    surface: "#ffffff",
+    surfaceStrong: "#f7fbff",
+    primary: "#0c6dfd",
+    primaryDeep: "#083b88",
+    accent: "#14b8a6",
+    accentSoft: "#d9fbf4",
+    gold: "#c99117",
+    goldSoft: "#fff1c7",
+    danger: "#b42318",
+    dangerSoft: "#fde7e4",
+  },
+  shadow: {
+    shadowColor: "#08111f",
+    shadowOpacity: 0.12,
+    shadowRadius: 24,
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    elevation: 8,
+  },
+};
